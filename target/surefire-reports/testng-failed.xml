@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [eBusiness Regression Suite]">
+  <test thread-count="5" verbose="0" name="Chrome Regresssion Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.royalmail.ebusinessregression.B2BRegistration">
+        <methods>
+          <include name="OpenRMLHomepage"/>
+          <include name="TC01RMLBusinessuserRegistration" invocation-numbers="0"/>
+          <include name="Quit"/>
+          <include name="afterMethod"/>
+          <include name="beforesuite"/>
+          <include name="tearDown"/>
+          <include name="Browser"/>
+        </methods>
+      </class> <!-- com.royalmail.ebusinessregression.B2BRegistration -->
+      <class name="com.royalmail.ebusinessregression.B2BOnlineInvoicePayment">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Quit"/>
+          <include name="OpenB2BHomepage"/>
+          <include name="afterMethod"/>
+          <include name="beforesuite"/>
+          <include name="TC01OIPB2Bsuccessfuljourney" invocation-numbers="0"/>
+          <include name="Browser"/>
+        </methods>
+      </class> <!-- com.royalmail.ebusinessregression.B2BOnlineInvoicePayment -->
+    </classes>
+  </test> <!-- Chrome Regresssion Tests(failed) -->
+</suite> <!-- Failed suite [eBusiness Regression Suite] -->

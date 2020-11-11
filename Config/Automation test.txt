@@ -1,0 +1,36 @@
+List of product Xpath:
+//body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/ul[1]
+Selecting the first product Xpath:
+//body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]
+//*[@id="center_column"]/ul/li[1]/div/div[1]/div/a[1]/img
+
+
+Checkoutpage Xpath
+Proceed to Checkout1 : //header/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[4]/a[1]
+Proceed to Checkout2 : //body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/p[2]/a[1]
+Email Address : //input[@id='email_create']
+Create an A/c: //button[@id='SubmitCreate']
+
+Personal Info - SignIn
+Title CSS : #id_gender2
+Firstname CSS : #customer_firstname
+Lastname CSS : #customer_lastname
+Password CSS : #passwd
+Address1 CSS : #address1
+City CSS : #city
+State_drpdwn CSS : #uniform-id_state
+State_List CSS : #id_state
+Postcode CSS : #postcode
+Mobile CSS : #phone_mobile
+Register CSS : #submitAccount
+
+Address
+Proceed to Checkout3 : //body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/form[1]/p[1]/button[1]
+
+Shipping
+Terms & Conditions : //input[@id='cgv']
+Proceed to Checkout4 : //body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/form[1]/p[1]/button[1]
+
+Payment
+Pay by bankwire : //body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/p[1]/a[1]
+COnfirm order : //body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/form[1]/p[1]/button[1]
